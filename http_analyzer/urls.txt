@@ -1,0 +1,11 @@
+# Test URLs - one per line. Lines starting with # are ignored.
+https://httpbin.org/status/200
+https://httpbin.org/status/201
+https://httpbin.org/redirect/2
+https://httpbin.org/status/301
+https://httpbin.org/status/404
+https://httpbin.org/status/403
+https://httpbin.org/status/500
+https://httpbin.org/status/503
+http://google.com
+https://this-domain-does-not-exist-xyz.com

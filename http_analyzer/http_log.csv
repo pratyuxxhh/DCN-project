@@ -1,0 +1,76 @@
+timestamp,url,method,status_code,category,reason,response_time_ms,content_type,size_bytes
+2026-11-11 20:46:58,https://httpbin.org/status/200,GET,200,Success,OK,1943.4,text/html; charset=utf-8,0
+2026-11-11 20:47:00,https://httpbin.org/status/201,GET,201,Success,Created,1664.7,text/html; charset=utf-8,0
+2026-11-11 20:47:01,https://httpbin.org/redirect/2,GET,200,Success,OK,2321.5,application/json,254
+2026-11-11 20:47:04,https://httpbin.org/status/301,GET,200,Success,OK,2134.6,application/json,254
+2026-11-11 20:47:06,https://httpbin.org/status/404,GET,404,Client Error,Not Found,1622.1,text/html; charset=utf-8,0
+2026-11-11 20:47:08,https://httpbin.org/status/403,GET,403,Client Error,Forbidden,1567.7,text/html; charset=utf-8,0
+2026-11-11 20:47:09,https://httpbin.org/status/500,GET,500,Server Error,Internal Server Error,1567.3,text/html; charset=utf-8,0
+2026-11-11 20:47:11,https://httpbin.org/status/503,GET,503,Server Error,Service Unavailable,1800.8,text/html; charset=utf-8,0
+2026-11-11 20:47:12,http://google.com,GET,200,Success,OK,256.1,text/html; charset=ISO-8859-1,89061
+2026-11-11 20:47:13,https://this-domain-does-not-exist-xyz.com,GET,,Network Error,DNS failure (domain could not be resolved),44.3,,0
+2026-11-11 20:47:57,https://httpbin.org/status/301,GET,200,Redirection,OK,1782.4,application/json,254
+2026-11-11 20:47:59,http://google.com,GET,200,Redirection,OK,201.2,text/html; charset=ISO-8859-1,89115
+2026-11-11 20:51:28,https://httpbin.org/status/200,GET,200,Success,OK,1126.3,text/html; charset=utf-8,0
+2026-11-11 20:51:29,https://httpbin.org/status/201,GET,201,Success,Created,1056.1,text/html; charset=utf-8,0
+2026-11-11 20:51:30,https://httpbin.org/redirect/2,GET,200,Redirection,OK,2174.1,application/json,254
+2026-11-11 20:51:32,https://httpbin.org/status/301,GET,200,Redirection,OK,1662.1,application/json,254
+2026-11-11 20:51:34,https://httpbin.org/status/404,GET,404,Client Error,Not Found,1094.0,text/html; charset=utf-8,0
+2026-11-11 20:51:35,https://httpbin.org/status/403,GET,403,Client Error,Forbidden,1126.6,text/html; charset=utf-8,0
+2026-11-11 20:51:36,https://httpbin.org/status/500,GET,500,Server Error,Internal Server Error,1138.2,text/html; charset=utf-8,0
+2026-11-11 20:51:37,https://httpbin.org/status/503,GET,503,Server Error,Service Unavailable,1259.8,text/html; charset=utf-8,0
+2026-11-11 20:51:38,http://google.com,GET,200,Redirection,OK,236.9,text/html; charset=ISO-8859-1,89015
+2026-11-11 20:51:39,https://this-domain-does-not-exist-xyz.com,GET,,Network Error,DNS failure (domain could not be resolved),7.2,,0
+2026-11-11 20:55:41,http://google.com,GET,200,Redirection,OK,358.3,text/html; charset=ISO-8859-1,89078
+2026-11-11 20:55:42,http://youtube.com,GET,200,Redirection,OK,1891.0,text/html; charset=utf-8,864061
+2026-11-11 20:56:16,https://example.com,HEAD,200,Success,OK,761.9,text/html; charset=utf-8,0
+2026-11-11 20:57:39,https://httpbin.org/status/200,GET,200,Success,OK,1550.6,text/html; charset=utf-8,0
+2026-11-11 20:57:41,https://httpbin.org/status/201,GET,201,Success,Created,1530.8,text/html; charset=utf-8,0
+2026-11-11 20:57:42,https://httpbin.org/redirect/2,GET,200,Redirection,OK,1912.9,application/json,254
+2026-11-11 20:57:44,https://httpbin.org/status/301,GET,200,Redirection,OK,2062.8,application/json,254
+2026-11-11 20:57:46,https://httpbin.org/status/404,GET,404,Client Error,Not Found,2843.0,text/html; charset=utf-8,0
+2026-11-11 20:57:49,https://httpbin.org/status/403,GET,403,Client Error,Forbidden,1452.9,text/html; charset=utf-8,0
+2026-11-11 20:57:50,https://httpbin.org/status/500,GET,500,Server Error,Internal Server Error,1409.7,text/html; charset=utf-8,0
+2026-11-11 20:57:52,https://httpbin.org/status/503,GET,503,Server Error,Service Unavailable,2472.9,text/html; charset=utf-8,0
+2026-11-11 20:57:54,http://google.com,GET,200,Redirection,OK,296.6,text/html; charset=ISO-8859-1,89115
+2026-11-11 20:57:55,https://this-domain-does-not-exist-xyz.com,GET,,Network Error,DNS failure (domain could not be resolved),10.8,,0
+2026-11-11 20:58:05,https://httpbin.org/status/200,GET,200,Success,OK,1324.5,text/html; charset=utf-8,0
+2026-11-11 20:58:06,https://httpbin.org/status/201,GET,201,Success,Created,1289.2,text/html; charset=utf-8,0
+2026-11-11 20:58:07,https://httpbin.org/redirect/2,GET,200,Redirection,OK,2095.0,application/json,254
+2026-11-11 20:58:09,https://httpbin.org/status/301,GET,200,Redirection,OK,2144.4,application/json,254
+2026-11-11 20:58:11,https://httpbin.org/status/404,GET,404,Client Error,Not Found,1439.1,text/html; charset=utf-8,0
+2026-11-11 20:58:13,https://httpbin.org/status/403,GET,403,Client Error,Forbidden,2755.6,text/html; charset=utf-8,0
+2026-11-11 20:58:16,https://httpbin.org/status/500,GET,500,Server Error,Internal Server Error,1383.3,text/html; charset=utf-8,0
+2026-11-11 20:58:17,https://httpbin.org/status/503,GET,503,Server Error,Service Unavailable,1680.2,text/html; charset=utf-8,0
+2026-11-11 20:58:19,http://google.com,GET,200,Redirection,OK,217.4,text/html; charset=ISO-8859-1,88960
+2026-11-11 20:58:19,https://this-domain-does-not-exist-xyz.com,GET,,Network Error,DNS failure (domain could not be resolved),14.0,,0
+2026-11-11 20:58:29,https://httpbin.org/status/200,GET,200,Success,OK,2751.2,text/html; charset=utf-8,0
+2026-11-11 20:58:32,https://httpbin.org/status/201,GET,201,Success,Created,1432.0,text/html; charset=utf-8,0
+2026-11-11 20:58:33,https://httpbin.org/redirect/2,GET,200,Redirection,OK,1935.5,application/json,254
+2026-11-11 20:58:35,https://httpbin.org/status/301,GET,200,Redirection,OK,2015.5,application/json,254
+2026-11-11 20:58:37,https://httpbin.org/status/404,GET,404,Client Error,Not Found,1344.2,text/html; charset=utf-8,0
+2026-11-11 20:58:38,https://httpbin.org/status/403,GET,403,Client Error,Forbidden,1307.8,text/html; charset=utf-8,0
+2026-11-11 20:58:40,https://httpbin.org/status/500,GET,500,Server Error,Internal Server Error,1359.6,text/html; charset=utf-8,0
+2026-11-11 20:58:41,https://httpbin.org/status/503,GET,503,Server Error,Service Unavailable,1318.1,text/html; charset=utf-8,0
+2026-11-11 20:58:42,http://google.com,GET,200,Redirection,OK,237.5,text/html; charset=ISO-8859-1,88976
+2026-11-11 20:58:43,https://this-domain-does-not-exist-xyz.com,GET,,Network Error,DNS failure (domain could not be resolved),17.2,,0
+2026-11-11 20:58:53,https://httpbin.org/status/200,GET,200,Success,OK,1399.4,text/html; charset=utf-8,0
+2026-11-11 20:58:54,https://httpbin.org/status/201,GET,201,Success,Created,1243.1,text/html; charset=utf-8,0
+2026-11-11 20:58:55,https://httpbin.org/redirect/2,GET,200,Redirection,OK,1814.6,application/json,254
+2026-11-11 20:58:57,https://httpbin.org/status/301,GET,200,Redirection,OK,1841.5,application/json,254
+2026-11-11 20:58:59,https://httpbin.org/status/404,GET,404,Client Error,Not Found,1430.6,text/html; charset=utf-8,0
+2026-11-11 20:59:00,https://httpbin.org/status/403,GET,403,Client Error,Forbidden,2967.0,text/html; charset=utf-8,0
+2026-11-11 20:59:03,https://httpbin.org/status/500,GET,500,Server Error,Internal Server Error,1268.1,text/html; charset=utf-8,0
+2026-11-11 20:59:05,https://httpbin.org/status/503,GET,503,Server Error,Service Unavailable,1282.0,text/html; charset=utf-8,0
+2026-11-11 20:59:06,http://google.com,GET,200,Redirection,OK,200.9,text/html; charset=ISO-8859-1,88977
+2026-11-11 20:59:06,https://this-domain-does-not-exist-xyz.com,GET,,Network Error,DNS failure (domain could not be resolved),7.1,,0
+2026-11-11 20:59:16,https://httpbin.org/status/200,GET,200,Success,OK,1449.4,text/html; charset=utf-8,0
+2026-11-11 20:59:18,https://httpbin.org/status/201,GET,201,Success,Created,1389.9,text/html; charset=utf-8,0
+2026-11-11 20:59:19,https://httpbin.org/redirect/2,GET,200,Redirection,OK,1876.2,application/json,254
+2026-11-11 20:59:21,https://httpbin.org/status/301,GET,200,Redirection,OK,2763.2,application/json,254
+2026-11-11 20:59:24,https://httpbin.org/status/404,GET,404,Client Error,Not Found,1738.3,text/html; charset=utf-8,0
+2026-11-11 20:59:25,https://httpbin.org/status/403,GET,403,Client Error,Forbidden,1703.6,text/html; charset=utf-8,0
+2026-11-11 20:59:27,https://httpbin.org/status/500,GET,500,Server Error,Internal Server Error,1360.7,text/html; charset=utf-8,0
+2026-11-11 20:59:29,https://httpbin.org/status/503,GET,503,Server Error,Service Unavailable,1327.3,text/html; charset=utf-8,0
+2026-11-11 20:59:30,http://google.com,GET,200,Redirection,OK,204.8,text/html; charset=ISO-8859-1,89076
+2026-11-11 20:59:30,https://this-domain-does-not-exist-xyz.com,GET,,Network Error,DNS failure (domain could not be resolved),6.8,,0
